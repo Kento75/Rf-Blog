@@ -1,0 +1,25 @@
+.content-container {
+  margin: 0 auto;
+  padding: 0 $m-size;
+  max-width: 80rem;
+}
+
+.align-left {
+  display: inline-block;
+  margin-left: 0;
+}
+
+.align-right {
+  display: inline-block;
+  float: right;
+}
+
+.date {
+  font-weight: 100;
+  color: #817b7b;
+  font-style: italic;
+  float: right;
+  &::before{
+    content: '— '
+  }
+}

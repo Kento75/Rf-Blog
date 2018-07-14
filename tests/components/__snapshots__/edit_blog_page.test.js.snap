@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render EditBlogPage correctly 1`] = `
+<div>
+  <div
+    className="page-header"
+  >
+    <div
+      className="content-container"
+    >
+      <h1
+        className="page-header__title"
+      >
+        Edit Blog
+      </h1>
+      Blog readable at 
+      <Link
+        replace={false}
+        to="/read/pqr567"
+      >
+        null/read/pqr567
+      </Link>
+    </div>
+  </div>
+  <div
+    className="content-container"
+  >
+    <BlogForm
+      blog={
+        Object {
+          "body": "Directives, Lazy Load",
+          "createdAt": 345600000,
+          "id": "pqr567",
+          "title": "Write a Angular app",
+        }
+      }
+      onSubmit={[Function]}
+    />
+    <button
+      className="button button--secondary"
+      onClick={[Function]}
+    >
+      Remove Blog
+    </button>
+  </div>
+</div>
+`;

@@ -1,0 +1,87 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render BlogList correctly 1`] = `
+<div
+  className="content-container"
+>
+  <div
+    className="list-header"
+  >
+    <div
+      className="show-for-mobile"
+    >
+      Blogs
+    </div>
+    <div
+      className="show-for-desktop"
+    >
+      Blog
+    </div>
+    <div
+      className="show-for-desktop"
+    >
+      Posted on
+    </div>
+  </div>
+  <div
+    className="list-body"
+  >
+    <Connect(BlogListItem)
+      body="Here is how to do it"
+      createdAt={0}
+      id="123abc"
+      key="123abc"
+      title="Write a Nodejs app"
+    />
+    <Connect(BlogListItem)
+      body="Directives, Lazy Load"
+      createdAt={345600000}
+      id="pqr567"
+      key="pqr567"
+      title="Write a Angular app"
+    />
+    <Connect(BlogListItem)
+      body="componentWillMount()"
+      createdAt={-345600000}
+      id="xyz987"
+      key="xyz987"
+      title="Write a React app"
+    />
+  </div>
+</div>
+`;
+
+exports[`should render BlogList with no blogs 1`] = `
+<div
+  className="content-container"
+>
+  <div
+    className="list-header"
+  >
+    <div
+      className="show-for-mobile"
+    >
+      Blogs
+    </div>
+    <div
+      className="show-for-desktop"
+    >
+      Blog
+    </div>
+    <div
+      className="show-for-desktop"
+    >
+      Posted on
+    </div>
+  </div>
+  <div
+    className="list-body"
+  >
+    <p
+      className="list-item list-item--message"
+    >
+      No Blogs. Write one now!
+    </p>
+  </div>
+</div>
+`;

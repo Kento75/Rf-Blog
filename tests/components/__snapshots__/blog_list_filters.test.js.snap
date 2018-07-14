@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render BlogListFilters correctly 1`] = `
+<div
+  className="content-container"
+>
+  <div
+    className="input-group"
+  >
+    <div
+      className="input-group__item"
+    >
+      <input
+        className="text-input"
+        onChange={[Function]}
+        placeholder="Search Posts..."
+        type="text"
+        value=""
+      />
+    </div>
+    <div
+      className="input-group__item"
+    >
+      <select
+        className="select"
+        onChange={[Function]}
+        value="date"
+      >
+        <option
+          value="date"
+        >
+          Date
+        </option>
+        <option
+          value="amount"
+        >
+          Title
+        </option>
+      </select>
+    </div>
+  </div>
+</div>
+`;

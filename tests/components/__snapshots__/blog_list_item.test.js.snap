@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render BlogListItem correctly 1`] = `
+<Link
+  className="list-item"
+  replace={false}
+  to="/edit/pqr567"
+>
+  <div>
+    <h4
+      className="list-item__title"
+    >
+      Write a Angular app
+    </h4>
+    <span
+      className="list-item__sub-title"
+    >
+      January 5th, 1970
+    </span>
+  </div>
+</Link>
+`;

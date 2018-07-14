@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render BlogSummary correctly with multiple expenses 1`] = `
+<div
+  className="page-header"
+>
+  <div
+    className="content-container"
+  >
+    <h3
+      className="page-header__title align-left"
+    >
+      Viewing 
+      <strong>
+        3
+         posts
+      </strong>
+    </h3>
+    <div
+      className="page-header__action align-right"
+    >
+      <Link
+        className="button"
+        replace={false}
+        to="/create"
+      >
+        Add Post
+      </Link>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`should render BlogSummary correctly with single expense 1`] = `
+<div
+  className="page-header"
+>
+  <div
+    className="content-container"
+  >
+    <h3
+      className="page-header__title align-left"
+    >
+      Viewing 
+      <strong>
+        1
+         posts
+      </strong>
+    </h3>
+    <div
+      className="page-header__action align-right"
+    >
+      <Link
+        className="button"
+        replace={false}
+        to="/create"
+      >
+        Add Post
+      </Link>
+    </div>
+  </div>
+</div>
+`;
